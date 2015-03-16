@@ -4,3 +4,78 @@ Lecture 1 Day 1
 
 len(a)  // length
 
+'Hello' + str(6) // >> 'Hello6'
+
+import sys
+	
+	dir(sys)
+	help(sys)
+
+
+ H  e  l  l  o
+ 0  1  2  3  4
+-5 -4 -3 -2 -1
+
+make a copy of a list:
+  b = a[:]
+
+a = [12, 2, 3]
+
+for num in a: print num
+
+>>  13
+>>  2
+>>  3
+
+2 in a
+
+>> true
+
+a.append(4)
+
+  // [12, 2, 3, 4]
+
+a.pop(0)
+
+>> 3
+
+  // [2, 3, 4]
+
+del a[1]
+
+>> [2, 4]
+
+
+a = [4, 2, 1, 6]
+
+sorterd(a)
+[1, 2, 4, 6]
+
+
+a = ['ccc', 'aaaa', 'd', 'bb']
+
+sorted(a, key=len)
+
+  def Last(s): return s[-1]
+
+  sorted(a, key=Last)
+
+':'.join(a)
+
+>> ccc:aaaa:d:bb
+
+b.split(' ')
+
+
+range(20)
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+
+>> for i in range(20) ... 
+
+
+
+(1, 2, 3) // tupal doesn't change size
+
+
+(x, y) = (1, 2)
+
