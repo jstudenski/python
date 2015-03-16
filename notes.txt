@@ -1,0 +1,6 @@
+Google Python Developers
+
+Lecture 1 Day 1
+
+len(a)  // length
+
